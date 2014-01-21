@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  namebrd: MyString
+  descbrd: MyString
+  serial: MyString
+  state: MyString
+
+two:
+  namebrd: MyString
+  descbrd: MyString
+  serial: MyString
+  state: MyString

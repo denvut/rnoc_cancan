@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>РНОК</title>
+  <%= load_netzke %>
+  <%= csrf_meta_tag %>
+  <%= javascript_include_tag :defaults %>
+</head>
+<body>
+	
+	<div id="con" >
+      <div style="text-align:left; "><img src="/images/logo.png"> </div>
+		<div id="usr_nav" style="text-align:right; ">
+			
+			<% if user_signed_in?    %>
+			Вы зашли как <%= current_user.email %> . Не вы?
+			<%=  link_to "Выход" ,  destroy_user_session_path %>
+			<% else %>
+			<!-- <%=  link_to "Регистрация", new_user_registration_path %> или -->  <%=link_to 'Войти', new_user_session_path%>
+			<% end %>
+			
+			
+		</div>
+
+		</div>
+
+
+    <%= yield %>
+</body>
+</html>

@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  raboti: MyString
+  descrab: MyString
+  startr: 2013-12-26 01:09:37
+  endr: 2013-12-26 01:09:37
+  starto: 2013-12-26 01:09:37
+  endo: 2013-12-26 01:09:37
+  nstate_id: 1
+  sotrudnic_id: 1
+
+two:
+  raboti: MyString
+  descrab: MyString
+  startr: 2013-12-26 01:09:37
+  endr: 2013-12-26 01:09:37
+  starto: 2013-12-26 01:09:37
+  endo: 2013-12-26 01:09:37
+  nstate_id: 1
+  sotrudnic_id: 1

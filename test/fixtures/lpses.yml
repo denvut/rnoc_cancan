@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  seip: MyString
+  selogin: MyString
+  sepass: MyString
+  sedesc: MyString
+  sity_id: MyString
+  sel_id: MyString
+
+two:
+  seip: MyString
+  selogin: MyString
+  sepass: MyString
+  sedesc: MyString
+  sity_id: MyString
+  sel_id: MyString
